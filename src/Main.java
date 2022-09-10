@@ -93,6 +93,15 @@ public class Main {
         System.out.println("В школе, где " + classCnt + " классов, нужно " + whitePack
                 + " банок белой краски и " + brownPack + " банок коричневой краски");
 
+        System.out.println("task6:");
+        short bananas = 5 * 80;
+        short milk = 2 * 105;
+        short iceCream = 2 * 200;
+        short egg = 4 * 70;
+        int sportsBreakfastGrams = bananas + milk + iceCream + egg;
+        System.out.println("Вест спорт-завтрака в граммах: " + sportsBreakfastGrams);
 
+        float sportsBreakfastKg = (float) sportsBreakfastGrams / 1000;
+        System.out.println("Вест спорт-завтрака в кг: " + sportsBreakfastKg);
     }
 }
