@@ -81,5 +81,18 @@ public class Main {
         int capacityMonth = capacityDay * 31;
         System.out.println("За месяц (31 день) машина произвела бутылок " + capacityMonth + " штук");
 
+        System.out.println("task5:");
+        byte allPack = 120;
+        byte whiteClassPack = 2;
+        byte brownClassPack = 4;
+        int classPack = whiteClassPack + brownClassPack;
+        int classCnt = allPack / classPack;
+        int whitePack = whiteClassPack * classCnt;
+        int brownPack = brownClassPack * classCnt;
+
+        System.out.println("В школе, где " + classCnt + " классов, нужно " + whitePack
+                + " банок белой краски и " + brownPack + " банок коричневой краски");
+
+
     }
 }
