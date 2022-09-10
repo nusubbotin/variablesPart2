@@ -127,17 +127,17 @@ public class Main {
         float salaryDenisNew = (float) (salaryDenis * 1.1);
         double salaryKristinaNew = salaryKristina * 1.1;
 
-        double annualGrowthMashaNew = (salaryMashaNew - salaryMasha) * 12;
+        double annualGrowthMasha = (salaryMashaNew - salaryMasha) * 12;
         System.out.println("Маша теперь получает " + salaryMashaNew
-                + " рублей. Годовой доход вырос на " + annualGrowthMashaNew + " рублей");
+                + " рублей. Годовой доход вырос на " + annualGrowthMasha + " рублей");
 
-        float annualGrowthDenisNew = (salaryDenisNew - salaryDenis) * 12;
+        float annualGrowthDenis = (salaryDenisNew - salaryDenis) * 12;
         System.out.println("Денис теперь получает " + salaryDenisNew
-                + " рублей. Годовой доход вырос на " + annualGrowthDenisNew + " рублей");
+                + " рублей. Годовой доход вырос на " + annualGrowthDenis + " рублей");
 
-        double annualGrowthKristinaNew = (salaryKristinaNew - salaryKristina) * 12;
+        double annualGrowthKristina = (salaryKristinaNew - salaryKristina) * 12;
         System.out.println("Кристина теперь получает " + salaryKristinaNew
-                + " рублей. Годовой доход вырос на " + annualGrowthKristinaNew + " рублей");
+                + " рублей. Годовой доход вырос на " + annualGrowthKristina + " рублей");
 
     }
 }
