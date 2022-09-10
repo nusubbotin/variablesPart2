@@ -54,5 +54,16 @@ public class Main {
         System.out.println("balance="+balance);
         System.out.println("flPutReport="+flPutReport);
         System.out.println("symbol$="+symbol$);
+
+        System.out.println("task3:");
+        byte studentsLyudmilaPavlovna = 23;
+        byte studentsAnnaSergeevna = 27;
+        byte studentsEkaterinaAndreevna = 30;
+
+        int studentsall = studentsLyudmilaPavlovna + studentsAnnaSergeevna + studentsEkaterinaAndreevna;
+
+        short paperAll = 480;
+        int studentPaper = paperAll / studentsall;
+        System.out.println( "На каждого ученика рассчитано " + studentPaper + " листов бумаги");
     }
 }
