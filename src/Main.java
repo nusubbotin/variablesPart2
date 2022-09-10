@@ -117,5 +117,27 @@ public class Main {
 
         int vietaDayAverage = (vietaDayMin + vietaDayMax) / 2;
         System.out.println("В среднем на похудание уйдет " + vietaDayAverage + " дней");
+
+        System.out.println("task8:");
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+
+        double salaryMashaNew = salaryMasha * 1.1;
+        float salaryDenisNew = (float) (salaryDenis * 1.1);
+        double salaryKristinaNew = salaryKristina * 1.1;
+
+        double annualGrowthMashaNew = (salaryMashaNew - salaryMasha) * 12;
+        System.out.println("Маша теперь получает " + salaryMashaNew
+                + " рублей. Годовой доход вырос на " + annualGrowthMashaNew + " рублей");
+
+        float annualGrowthDenisNew = (salaryDenisNew - salaryDenis) * 12;
+        System.out.println("Денис теперь получает " + salaryDenisNew
+                + " рублей. Годовой доход вырос на " + annualGrowthDenisNew + " рублей");
+
+        double annualGrowthKristinaNew = (salaryKristinaNew - salaryKristina) * 12;
+        System.out.println("Кристина теперь получает " + salaryKristinaNew
+                + " рублей. Годовой доход вырос на " + annualGrowthKristinaNew + " рублей");
+
     }
 }
