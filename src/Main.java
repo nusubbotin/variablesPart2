@@ -103,5 +103,19 @@ public class Main {
 
         float sportsBreakfastKg = (float) sportsBreakfastGrams / 1000;
         System.out.println("Вест спорт-завтрака в кг: " + sportsBreakfastKg);
+
+        System.out.println("task7:");
+        short excessWeight = 7 * 1000;
+        short profitDayMin = 250;
+        short profitDayMax = 500;
+
+        int vietaDayMin = excessWeight / profitDayMin;
+        System.out.println("На похудание уйдет " + vietaDayMin + " дней если спортсмен будет терять каждый день по 250 грамм");
+
+        int vietaDayMax = excessWeight / profitDayMax;
+        System.out.println("На похудание уйдет " + vietaDayMax + " дней если спортсмен будет терять каждый день по 500 грамм");
+
+        int vietaDayAverage = (vietaDayMin + vietaDayMax) / 2;
+        System.out.println("В среднем на похудание уйдет " + vietaDayAverage + " дней");
     }
 }
