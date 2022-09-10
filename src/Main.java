@@ -65,5 +65,21 @@ public class Main {
         short paperAll = 480;
         int studentPaper = paperAll / studentsall;
         System.out.println( "На каждого ученика рассчитано " + studentPaper + " листов бумаги");
+
+        System.out.println("task4:");
+        byte bottleMachineCapacityInMin = 16 / 2;
+
+        int capacity20Min = bottleMachineCapacityInMin * 20;
+        System.out.println("За 20 минут машина произвела бутылок " + capacity20Min + " штук");
+
+        int capacityDay = bottleMachineCapacityInMin * 60 * 24;
+        System.out.println("За сутки машина произвела бутылок " + capacityDay + " штук");
+
+        int capacity3Day = capacityDay * 3;
+        System.out.println("За 3 дня машина произвела бутылок " + capacity3Day + " штук");
+
+        int capacityMonth = capacityDay * 31;
+        System.out.println("За месяц (31 день) машина произвела бутылок " + capacityMonth + " штук");
+
     }
 }
